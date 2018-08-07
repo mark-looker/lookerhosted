@@ -46,10 +46,11 @@ view: products {
     type: count
     drill_fields: [id, item_name, inventory_items.count]
   }
-  measure: avg {
+  measure: Average_retail_price{
     type: average
     sql: ${TABLE}.retail_price ;;
-    drill_fields: [id, item_name, inventory_items.count]
+    value_format: "$#.00;($#.00)"
+    drill_fields: [id, item_name, inventory_items.count, retail_price]
   }
 
 }
