@@ -48,6 +48,7 @@ view: products {
   }
   measure: avg {
     type: average
+    sql: ${TABLE}.retail_price ;;
   }
 
 }
