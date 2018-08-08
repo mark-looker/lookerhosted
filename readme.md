@@ -40,3 +40,6 @@ GIT is intgrated with Looker so that you can version control LookML files.  All 
 Use Action Hub- done this to schedule PDFs to Google drive.  Used Zapier and though Webhook didnt work for this- did manage using Zapier email attachment.
 
 Use Liquid- done uses {{ value}} to insert a value.  Try doing some conditional formatting with it!
+
+Included an image in my Products dashboard- didn't use LookML
+Included a favicon as an image in my use of HTML for adding in ... sub links to other places.

@@ -63,7 +63,10 @@ explore: orders {
   }
 }
 
-explore: products {}
+explore: products {
+  description: "It's just the item name!"  ##Adds in tool tip in Explore menu and Explore
+  label: "Our Products"                    ##User friendly name for Products in this explore
+}
 
 explore: schema_migrations {}
 
