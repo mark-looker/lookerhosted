@@ -5,6 +5,7 @@ view: products {
     primary_key: yes
     type: number
     sql: ${TABLE}.id ;;
+    hidden: yes           ##Hid this ID from the explore- it is still referenceable in the model
   }
 
   dimension: brand {

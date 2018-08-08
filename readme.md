@@ -27,6 +27,7 @@ Understand how the top ten feature and bug requests relate
 Filtered measure?
 Set up the API
 Learn about parameters
+Conditional formatting using LookML
 
 
 DONE
@@ -43,3 +44,5 @@ Use Liquid- done uses {{ value}} to insert a value.  Try doing some conditional 
 
 Included an image in my Products dashboard- didn't use LookML
 Included a favicon as an image in my use of HTML for adding in ... sub links to other places.
+
+Hid the field in ID in Product as users don't need this.  However it is still referenceable within the model should it be need to be used elsewhere.
